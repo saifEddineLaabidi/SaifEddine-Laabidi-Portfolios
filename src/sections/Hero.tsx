@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { prefix } from "../lib/prefix";
 
 const Hero = () => {
 
@@ -20,7 +21,7 @@ const Hero = () => {
         {/* Profile Image */}
         <div className="relative w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-6">
           <Image
-            src="/skills/images.png"
+            src={`${prefix}/skills/images.png`}
             alt="Saif Eddine Laabidi"
             layout="fill"
             objectFit="cover"
@@ -46,7 +47,7 @@ const Hero = () => {
         {/* CTA Button */}
         <div className="mt-8 flex justify-center">
           <Link
-            href="/resume.pdf" // Assuming resume file is in public folder
+            href={`${prefix}/resume.pdf`} // Assuming resume file is in public folder
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 text-base sm:text-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-all duration-200"
