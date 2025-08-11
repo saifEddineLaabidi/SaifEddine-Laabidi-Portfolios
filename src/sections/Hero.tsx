@@ -20,7 +20,7 @@ const Hero = () => {
         {/* Profile Image */}
         <div className="relative w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-6">
           <Image
-            src="/skills/images.png"
+            src="/skills/myskills/images.png"
             alt="Saif Eddine Laabidi"
             layout="fill"
             objectFit="cover"
