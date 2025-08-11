@@ -26,7 +26,7 @@ export const allSkills = [
   { name: "CSS", img: skillImages.CSS, category: "Web & Backend" },
   { name: "Spring Boot", img: skillImages.SpringBoot, category: "Web & Backend" },
   { name: "Nginx", img: skillImages.Nginx, category: "Web & Backend" },
-  { name: "Apache", img: skillImages.Apache, category: "Web & Backend" },
+  { name: "Apache HTTP Server", img: skillImages.Apache, category: "Web & Backend" },
   { name: "Haproxy", img: skillImages.Haproxy, category: "Web & Backend" },
   { name: "Gateway API", img: skillImages.GatewayAPI, category: "Web & Backend" },
 
