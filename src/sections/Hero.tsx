@@ -46,7 +46,7 @@ const Hero = () => {
         {/* CTA Button */}
         <div className="mt-8 flex justify-center">
           <Link
-            href={`${process.env.NODE_ENV === 'production' ? '/SaifEddine-Laabidi-Portfolios' : ''}/resume.pdf`} // Assuming resume file is in public folder
+            href="/resume.pdf" // Assuming resume file is in public folder
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 text-base sm:text-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-all duration-200"
