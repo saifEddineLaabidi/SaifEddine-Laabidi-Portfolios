@@ -2,10 +2,11 @@
 
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
+
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggle from "../app/ThemeToggle";
+import CredlyIcon from "./CredlyIcon";
 import Logo from "./Logo";
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
     {
       link: "https://www.credly.com/users/abidi-saif",
       icon: (
-        <Image src="/skills/credly.png" alt="Credly" width={20} height={20} />
+        <CredlyIcon size={24} />
       ),
     },
   ];
